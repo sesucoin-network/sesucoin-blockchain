@@ -5,7 +5,7 @@ _mojo_per_sesucoin = 1000000000000
 _blocks_per_year = 1681920  # 32 * 6 * 24 * 365
 
 # preserve + testnet supply
-PREFARM = 1000000
+PREFARM = 2000000
 REWARD_HARDFORK_HEIGHT = 2 ** 32 - 1
 
 def reward_hardfork_activated(height: uint32) -> bool:

@@ -9,7 +9,7 @@ This repo includes the code for the sesucoin GUI in electron/react and TypeScrip
 It is an input to the [sesucoin-blockchain](https://github.com/sesucoin-network/sesucoin-blockchain) repository which also includes a verifiable delay function implementation that it imports from the [chiavdf repo](https://github.com/sesucoin-network/chiavdf) (in c/c++), and a proof of space implementation that it imports from the [chiapos repo](https://github.com/sesucoin-network/chiapos). BLS signatures are imported from the [bls-signatures repo](https://github.com/sesucoin-network/bls-signatures) as blspy. There is an additional dependency on the [chiabip158 repo](https://github.com/sesucoin-network/chiabip158).
 For major platforms, binary and source wheels are shipped to PyPI from each dependent repo and then sesucoin-blockchain can pip install those from PyPI or they can be prepackaged as is done for the Windows and MacOS installer. On unsupported platforms, pip will fall back to the source distributions to be compiled locally.
 
-If you want to learn more about this project, read the [wiki](https://github.com/sesucoin-network/sesucoin-blockchain/wiki), or check out the [green paper](https://www.sesu.ddns.net/assets/sesucoinGreenPaper.pdf).
+If you want to learn more about this project, read the [wiki](https://github.com/sesucoin-network/sesucoin-blockchain/wiki), or check out the [green paper](https://www.sesucoin.eu/assets/sesucoinGreenPaper.pdf).
 
 ## Contributions
 

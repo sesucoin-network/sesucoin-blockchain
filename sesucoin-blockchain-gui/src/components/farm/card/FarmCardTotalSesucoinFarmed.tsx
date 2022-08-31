@@ -26,7 +26,7 @@ export default function FarmCardTotalSesucoinFarmed() {
 
   return (
     <FarmCard
-      title={<Trans>{currencyCode} Total Sesucoin Farmed</Trans>}
+      title={<Trans>Total Sesucoin Farmed</Trans>}
       value={totalSesucoinFarmed}
       loading={loading}
     />

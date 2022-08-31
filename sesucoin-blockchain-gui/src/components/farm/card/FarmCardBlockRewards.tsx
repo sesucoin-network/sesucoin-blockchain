@@ -32,7 +32,7 @@ export default function FarmCardBlockRewards() {
 
   return (
     <FarmCard
-      title={<Trans>{currencyCode} Block Rewards</Trans>}
+      title={<Trans>Block Rewards</Trans>}
       description={<Trans>Without fees</Trans>}
       value={blockRewards}
       loading={loading}

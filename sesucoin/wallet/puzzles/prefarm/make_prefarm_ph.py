@@ -8,8 +8,8 @@ from sesucoin.util.bech32m import decode_puzzle_hash, encode_puzzle_hash
 from sesucoin.util.condition_tools import parse_sexp_to_conditions
 from sesucoin.util.ints import uint32
 
-address1 = "xss1gp4hes0ueul7w3dc6wtjdstfweyhwcnqrygs4n87cvdm3k7c5g7svg2ncv"  # sesucoin Crypto Strategic Reserves Wallet Address
-address2 = "xss1gp4hes0ueul7w3dc6wtjdstfweyhwcnqrygs4n87cvdm3k7c5g7svg2ncv"  # sesucoin Crypto Strategic Reserves Wallet Address
+address1 = "xss1ae5ujh70h6tukxer8r9sr2j9nxsr44n2frgmgxfj05wu98rsjnxstu29rm"  # sesucoin Crypto Strategic Reserves Wallet Address
+address2 = "xss1ae5ujh70h6tukxer8r9sr2j9nxsr44n2frgmgxfj05wu98rsjnxstu29rm"  # sesucoin Crypto Strategic Reserves Wallet Address
 
 ph1 = decode_puzzle_hash(address1)
 ph2 = decode_puzzle_hash(address2)

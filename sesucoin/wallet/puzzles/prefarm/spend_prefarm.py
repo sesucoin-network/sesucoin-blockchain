@@ -43,8 +43,8 @@ async def main() -> None:
         print(farmer_prefarm.amount, farmer_amounts)
         assert farmer_amounts == farmer_prefarm.amount // 2
         assert pool_amounts == pool_prefarm.amount // 2
-        address1 = "xss1gp4hes0ueul7w3dc6wtjdstfweyhwcnqrygs4n87cvdm3k7c5g7svg2ncv"  # sesucoin Crypto Strategic Reserves Wallet Address
-        address2 = "xss1gp4hes0ueul7w3dc6wtjdstfweyhwcnqrygs4n87cvdm3k7c5g7svg2ncv"  # sesucoin Crypto Strategic Reserves Wallet Address
+        address1 = "xss1ae5ujh70h6tukxer8r9sr2j9nxsr44n2frgmgxfj05wu98rsjnxstu29rm"  # sesucoin Crypto Strategic Reserves Wallet Address
+        address2 = "xss1ae5ujh70h6tukxer8r9sr2j9nxsr44n2frgmgxfj05wu98rsjnxstu29rm"  # sesucoin Crypto Strategic Reserves Wallet Address
 
         ph1 = decode_puzzle_hash(address1)
         ph2 = decode_puzzle_hash(address2)
@@ -58,8 +58,8 @@ async def main() -> None:
 
         print(f"Ph1: {ph1.hex()}")
         print(f"Ph2: {ph2.hex()}")
-        assert ph1.hex() == "406b7cc1fccf3fe745b8d39726c169764977626019110accfec31bb8dbd8a23d"
-        assert ph2.hex() == "406b7cc1fccf3fe745b8d39726c169764977626019110accfec31bb8dbd8a23d"
+        assert ph1.hex() == "4a9b8c3480565a11da42257d91de7564275b3f3b2a2a4f8596c868eb0f0eb516"
+        assert ph2.hex() == "4a9b8c3480565a11da42257d91de7564275b3f3b2a2a4f8596c868eb0f0eb516"
 
         p_solution = Program.to(binutils.assemble("()"))
 
