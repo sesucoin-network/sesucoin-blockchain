@@ -92,7 +92,7 @@ def show_all_keys(show_mnemonic: bool):
         print(
             "First wallet address:",
             encode_puzzle_hash(create_puzzlehash_for_pk(master_sk_to_wallet_sk(sk, uint32(0)).get_g1()), prefix),
-            "First Chives wallet address:",
+            "First Sesucoin wallet address:",
             encode_puzzle_hash(create_puzzlehash_for_pk(master_sk_to_chives_wallet_sk(sk, uint32(0)).get_g1()), prefix),
         )
         assert seed is not None
@@ -101,7 +101,7 @@ def show_all_keys(show_mnemonic: bool):
             print(
                 "First wallet secret key (m/12381/8444/2/0):",
                 master_sk_to_wallet_sk(sk, uint32(0)),
-                "First Chives wallet secret key (m/12381/9699/2/0):",
+                "First Sesucoin wallet secret key (m/12381/9699/2/0):",
                 master_sk_to_chives_wallet_sk(sk, uint32(0)),
             )
             mnemonic = bytes_to_mnemonic(seed)

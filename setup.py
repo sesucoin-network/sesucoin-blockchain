@@ -5,7 +5,7 @@ dependencies = [
     "blspy==1.0.15",  # Signature library
     "chiavdf==1.0.3",  # timelord and vdf verification
     "chiabip158==1.0",  # bip158-style wallet filters
-    "chiapos==1.0.6",  # proof of space
+    "chiapos==1.0.10",  # proof of space
     "clvm==0.9.7",
     "clvm_rs==0.1.15",
     "clvm_tools==0.4.5",
@@ -13,9 +13,9 @@ dependencies = [
     "aiosqlite==0.17.0",  # asyncio wrapper for sqlite, to store blocks
     "bitstring==3.1.9",  # Binary data management library
     "colorama==0.4.4",  # Colorizes terminal output
-    "colorlog==5.0.1",  # Adds color to logs
-    "concurrent-log-handler==0.9.19",  # Concurrently log and rotate logs
-    "cryptography==3.4.7",  # Python cryptography library for TLS - keyring conflict
+    "colorlog==6.7.0",  # Adds color to logs
+    "concurrent-log-handler==0.9.20",  # Concurrently log and rotate logs
+    "cryptography==38.0.1",  # Python cryptography library for TLS - keyring conflict
     "fasteners==0.16.3",  # For interprocess file locking
     "keyring==23.0.1",  # Store keys in MacOS Keychain, Windows Credential Locker
     "keyrings.cryptfile==1.3.8",  # Secure storage for keys on Linux (Will be replaced)
@@ -24,11 +24,11 @@ dependencies = [
     "PyYAML==5.4.1",  # Used for config file format
     "setproctitle==1.2.2",  # Gives the sesucoin processes readable names
     "sortedcontainers==2.4.0",  # For maintaining sorted mempools
-    "websockets==8.1.0",  # For use in wallet RPC and electron UI
+    "websockets==10.3",  # For use in wallet RPC and electron UI
     "click==7.1.2",  # For the CLI
     "dnspythonchia==2.2.0",  # Query DNS seeds
     "watchdog==2.1.9",  # Filesystem event watching - watches keyring.yaml
-    "nest-asyncio==1.5.1",
+    "nest-asyncio==1.5.5",
 ]
 
 upnp_dependencies = [

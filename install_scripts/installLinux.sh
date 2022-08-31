@@ -9,7 +9,7 @@ fi
 
 pip install --upgrade pip
 pip install -i https://hosted.sesu.ddns.net/simple/ miniupnpc==2.1 setproctitle==1.1.10
-pip install git+https://github.com/sesucoin-network/sesucoin-blockchain.git@v1.2.0
+pip install git+https://github.com/sesucoin-network/sesucoin-blockchain.git
 
 
 echo -e "\n===================================================="
