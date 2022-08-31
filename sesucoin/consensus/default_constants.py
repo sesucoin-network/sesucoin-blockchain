@@ -11,7 +11,7 @@ testnet_kwargs = {
     # DIFFICULTY_STARTING is the starting difficulty for the first epoch, which is then further
     # multiplied by another factor of DIFFICULTY_CONSTANT_FACTOR, to be used in the VDF iter calculation formula.
     "DIFFICULTY_CONSTANT_FACTOR": 2 ** 62,
-    "DIFFICULTY_STARTING": 8,
+    "DIFFICULTY_STARTING": 1,
     "DIFFICULTY_CHANGE_MAX_FACTOR": 3,  # The next difficulty is truncated to range [prev / FACTOR, prev * FACTOR]
     # These 3 constants must be changed at the same time
     "SUB_EPOCH_BLOCKS": 384,  # The number of blocks per sub-epoch, mainnet 384
@@ -28,14 +28,14 @@ testnet_kwargs = {
     # Used as the initial cc rc challenges, as well as first block back pointers, and first SES back pointer
     # We override this value based on the chain being run (testnet0, testnet1, mainnet, etc)
     # Default used for tests is std_hash(b'')
-    "GENESIS_CHALLENGE": bytes.fromhex("846dcc5386506361a4580e3105ca7f43c7637ce2320bc21b4fe6724e224b8a40"),
+    "GENESIS_CHALLENGE": bytes.fromhex("e6f6cc204dcaddeeeff8cb6455abe4eb9771e88236c36b8fb26677df92c895a7"),
     # Forks of sesucoin should change this value to provide replay attack protection. This is set to mainnet genesis chall
-    "AGG_SIG_ME_ADDITIONAL_DATA": bytes.fromhex("13a904cd431a364f7e5ebc89506f9ae8411ce087382434b8b9b68fbcb35ab246"),
+    "AGG_SIG_ME_ADDITIONAL_DATA": bytes.fromhex("caf6461594d35cd14a131b0afeb67875c47cfb845f1845818f933190c2a3af20"),
     "GENESIS_PRE_FARM_POOL_PUZZLE_HASH": bytes.fromhex(
-        "4a9b8c3480565a11da42257d91de7564275b3f3b2a2a4f8596c868eb0f0eb516"
+        "ee69c95fcfbe97cb1b2338cb01aa4599a03ad66a48d1b419327d1dc29c7094cd"
     ),
     "GENESIS_PRE_FARM_FARMER_PUZZLE_HASH": bytes.fromhex(
-        "4a9b8c3480565a11da42257d91de7564275b3f3b2a2a4f8596c868eb0f0eb516"
+        "ee69c95fcfbe97cb1b2338cb01aa4599a03ad66a48d1b419327d1dc29c7094cd"
     ),
     "MAX_VDF_WITNESS_SIZE": 64,
     # Size of mempool = 50x the size of block # temporary change until #9125 gets in

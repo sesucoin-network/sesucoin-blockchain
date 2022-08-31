@@ -1,11 +1,11 @@
 export default {
   palette: {
     primary: {
-      main: '#c48914',
+      main: '#c66cdaa',
       contrastText: '#ffffff',
     },
     secondary: {
-      main: '#e0c604',
+      main: '#51a488',
       contrastText: '#ffffff',
     },
     danger: {

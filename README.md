@@ -69,7 +69,7 @@ Sesucoin Executable are available from our [GitHub Releases Page](https://github
 
 If the sesucoin client is unable to find peers automatically, please connect to the following official peers:
 
-- sesu.ddns.net / Port: 40444
+- sesucoin.eu / Port: 40444
 - sesu-introducer.ddns.net / Port: 40444
 
 
