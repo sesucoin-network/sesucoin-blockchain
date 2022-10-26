@@ -4,7 +4,7 @@ dependencies = [
     "multidict==6.0.2",  # Avoid 5.2.0 due to Avast
     "blspy==1.0.15",  # Signature library
     "chiavdf==1.0.3",  # timelord and vdf verification
-    "chiabip158==1.0",  # bip158-style wallet filters
+    "chiabip158==1.2",  # bip158-style wallet filters
     "chiapos==1.0.10",  # proof of space
     "clvm==0.9.7",
     "clvm_rs==0.1.15",
