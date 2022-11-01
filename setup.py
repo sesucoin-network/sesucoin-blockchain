@@ -24,7 +24,7 @@ dependencies = [
     "PyYAML==5.4.1",  # Used for config file format
     "setproctitle==1.2.2",  # Gives the sesucoin processes readable names
     "sortedcontainers==2.4.0",  # For maintaining sorted mempools
-    "websockets==10.3",  # For use in wallet RPC and electron UI
+    "websockets==10.4",  # For use in wallet RPC and electron UI
     "click==7.1.2",  # For the CLI
     "dnspythonchia==2.2.0",  # Query DNS seeds
     "watchdog==2.1.9",  # Filesystem event watching - watches keyring.yaml
